@@ -16,7 +16,7 @@ There are two main folders: `gradleProjectCreditSussieTest` contains the solutio
 - Run the actual solution as follows from the root of `gradleProjectCreditSussieTest`
     - `gradle build` 
     - `java -cp build/libs/gradleProjectCreditSussieTest.jar:build/libs/* gradleProjectCreditSussieTest.driverApp logfile.txt`
-    -  you can replace `logfile.txt` with the path of the new file you want to run.
+    -  you can replace `logfile.txt` with the path of any new file you want to run.
 
 ## Caveats
 - tested only on `OSX` and `Ubuntu`.
