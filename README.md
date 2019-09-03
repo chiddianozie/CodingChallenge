@@ -12,7 +12,7 @@ There are two main folders: `gradleProjectCreditSussieTest` contains the solutio
 
     - This creates a database `eventLogdb` as specified in  `\hsqldb-2.5.0\hsqldb\server.properties`
 - Start the database server: Depending on your local settings, you may need to close the `terminal` from above before starting the database server
-    - run the following command from java `\hsqldb-2.5.0\hsqldb` `java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:hsqldb/eventLogdb --dbname.0 logDetailsDB`
+    - run the following command  `java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:hsqldb/eventLogdb --dbname.0 logDetailsDB` from `\hsqldb-2.5.0\hsqldb`
 - Run the actual solution as follows from the root of `gradleProjectCreditSussieTest`
     - `gradle build` 
     - `java -cp build/libs/gradleProjectCreditSussieTest.jar:build/libs/* gradleProjectCreditSussieTest.driverApp logfile.txt`
