@@ -5,7 +5,7 @@
 
 
 ## To run the solution
-There are two main folders: `gradleProjectCreditSussieTest` contains the solution code and `hsqldb-2.5.0` is for the database.
+There are two folders: `gradleProjectCreditSussieTest` contains the solution code and `hsqldb-2.5.0` is for the database.
 - Create the database as follows 
     - `cd \hsqldb-2.5.0\hsqldb`
     - `java -classpath lib/hsqldb.jar org.hsqldb.server.Server`
